@@ -55,10 +55,15 @@ body{
 	background-image: url(/Resources/carpenter.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 	width: 100%;
 	font-family: 'Montserrat', sans-serif;
 }
 
+
+/*MOBILE DESIGN STYLINGS*/
+
+/*header styles*/
 header{
 	display: flex;
 	flex-direction: column;
@@ -69,24 +74,59 @@ header{
 	text-align: center;
 }
 .title-container img{
-	width: 80%;
+	width: 100%;
 	opacity: 75%;
 }
 
 header nav{
-	width: 40%;
-	margin: 3rem;
+	width: 30%;
+	margin: 1rem;
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-color: white;
-	opacity: 70%;
+	opacity: 75%;
 }
 
 header nav a{
-	padding: 1rem;
+	padding: 0.8rem;
 	font-size: 1.4rem;
 	text-decoration: none;
 	color: black;
+}
+header nav a:hover{
+	background-color: #f58220;
+}
+
+/*landing section styles*/
+
+.landing{
+	width: 90%;
+	margin: 2rem auto;
+	background-color: white;
+	opacity: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.landing h1{
+	font-weight: bold;
+	font-size: 3rem;
+	margin: 1rem;
+	font-family: 'Playfair Display', serif;
+}
+.landing h3{
+	font-size: 1.4rem;
+	text-align: center;
+	margin: 1.6rem;
+}
+.landing button{
+	margin: 1.6rem;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #008e97;
+	color: white;
+	border: none;
+	padding: 0.8rem;
 }
