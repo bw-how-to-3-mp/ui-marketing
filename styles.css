@@ -151,14 +151,11 @@ header nav a:hover{
 		height: auto;
 	}
 	header nav{
+		width: 55%;
 		margin: 1rem;
 		flex-direction: row;
 		justify-content: space-around;
 	}
-	header nav a{
-		font-size: 1.6rem;
-	}
-
 	.landing{
 		width: 80%;
 		margin-top: 8rem;
@@ -193,6 +190,9 @@ header nav a:hover{
 	}
 	header nav{
 		width: 100%;
+	}
+	header nav a{
+		font-size: 1.8rem; 	
 	}
 
 	.landing{
