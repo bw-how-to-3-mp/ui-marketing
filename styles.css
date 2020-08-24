@@ -99,6 +99,8 @@ header nav a{
 }
 header nav a:hover{
 	background-color: #f58220;
+	border: 1px solid black;
+	transition-duration: 0.8s;
 }
 
 /*landing section styles*/
@@ -136,6 +138,7 @@ header nav a:hover{
 .landing button:hover{
 	background-color: #f58220;
 	color: black;
+	transition-duration: 0.8s;
 }
 
 /*media query at 500px, tablet sizes*/
@@ -149,7 +152,6 @@ header nav a:hover{
 	}
 	header nav{
 		margin: 1rem;
-		width: 60%;
 		flex-direction: row;
 		justify-content: space-around;
 	}
@@ -167,5 +169,34 @@ header nav a:hover{
 	}
 	.landing h3{
 		font-size: 2.4rem;
+	}
+	.landing button{
+		font-size: 1.8rem;
+	}
+}
+
+/*media query at 800px for desktop version*/
+@media(min-width: 800px){
+	header{
+		flex-direction: row;
+		justify-content: space-evenly;
+		background-color: white;
+		opacity: 85%;
+		margin: 0;
+	}
+	.title-container{
+		width: 80%;
+	}
+	.title-container img{
+		width: 30%;
+		margin: 0;
+	}
+	header nav{
+		width: 100%;
+	}
+
+	.landing{
+		width: 50%;
+		margin: 25rem auto;
 	}
 }
