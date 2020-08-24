@@ -46,3 +46,47 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html{
+	font-size: 62.5%
+}
+
+body{
+	background-image: url(/Resources/carpenter.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem;
+}
+.title-container{
+	text-align: center;
+}
+.title-container img{
+	width: 80%;
+	opacity: 75%;
+}
+
+header nav{
+	width: 40%;
+	margin: 3rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	opacity: 70%;
+}
+
+header nav a{
+	padding: 1rem;
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: black;
+}
