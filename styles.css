@@ -56,6 +56,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
@@ -200,5 +201,58 @@ header nav a:hover{
 	.landing{
 		width: 50%;
 		margin: 25rem auto;
+	}
+}
+
+/*end of landing page styling*/
+
+/*start of about page styling*/
+
+.team{
+	width: 95%;
+	margin: 3rem auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team h2{
+	margin: 2rem;
+	font-size: 2.4rem;
+	font-weight: bold;
+}
+.team-container{
+	display:flex;
+	flex-direction: column;
+}
+.team-member{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem;
+	font-size: 1.4rem;
+}
+.team-member img{
+	width: 60%;
+	margin-bottom: 1rem;
+}
+.team-member h4{
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+@media(min-width: 500px){
+	.team-container{
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.team-member{
+		width: 46%;
+	}
+	.team-member img{
+		width: 90%;
 	}
 }
