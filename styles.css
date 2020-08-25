@@ -218,7 +218,7 @@ header nav a:hover{
 	align-items: center;
 }
 .team h2{
-	margin: 2rem;
+	margin: 4rem;
 	font-size: 2.4rem;
 	font-weight: bold;
 }
@@ -233,6 +233,7 @@ header nav a:hover{
 	align-items: center;
 	margin: 1rem;
 	font-size: 1.4rem;
+	line-height: 2rem;
 }
 .team-member img{
 	width: 60%;
@@ -263,6 +264,7 @@ header nav a:hover{
 	}
 	.team-member{
 		width: 25%;
+		margin: 3rem;
 	}
 	.team-member img{
 		width: 70%;
